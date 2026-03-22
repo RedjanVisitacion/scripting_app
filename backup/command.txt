@@ -1,0 +1,26 @@
+- python -m venv venv
+- .\venv\Scripts\activate
+- pip install fastapi uvicorn
+- pip install motor
+- pip install motor httpx
+- pip install python-multipart
+
+(admin_terminal): net start MongoDB
+
+uvicorn main:app --reload
+
+or
+
+python main.py
+
+
+# Terminal 1 - Start backend
+cd f:\scripting\backend
+pip install -r requirements.txt
+python main.py
+
+# Terminal 2 - Start Flutter (in new terminal)
+cd f:\scripting
+flutter pub get
+flutter run -d windows
+
