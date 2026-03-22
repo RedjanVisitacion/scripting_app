@@ -24,3 +24,13 @@ cd f:\scripting
 flutter pub get
 flutter run -d windows
 
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.4.0
+  file_picker: ^8.0.0
+  http: ^1.2.0
+  shared_preferences: ^2.2.2
+  intl: ^0.19.0
